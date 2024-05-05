@@ -1,0 +1,2016 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/fligh_satisfaction_surveys"
+     xml:base="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/fligh_satisfaction_surveys"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+     xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
+     xmlns:flight_satisfaction_surveys="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys">
+        <rdfs:comment xml:lang="en">Its objective is to model and represent the structure, relationships and concepts related to flight satisfaction surveys</rdfs:comment>
+        <rdfs:label xml:lang="en">fligh_satisfaction_surveys</rdfs:label>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#sameAs -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#sameAs"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Aircraft -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Aircraft">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Aircraft"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airline -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airline">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Review"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airport -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airport">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airport"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Country -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Country">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Country"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#FlighSeat -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#FlighSeat">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#FlightRoute"/>
+        <rdfs:label xml:lang="en">FlighSeat</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#FlightRoute -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#FlightRoute">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#FlightRoute"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Location -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Location">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Location"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Passenger -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Passenger">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Review"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Passenger"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Review -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Review">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Review"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Trip -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Trip">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Trip"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#TripReason -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#TripReason">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#TripReason"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#containsAirport -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#containsAirport">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Location"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#isLocalizedIn"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Location"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airport"/>
+        <rdfs:comment xml:lang="en">Indicates that an entity contains an airport.</rdfs:comment>
+        <rdfs:label xml:lang="en">containsAirport</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#fillingByPassenger -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#fillingByPassenger">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Review"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#providesReview"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Review"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Passenger"/>
+        <rdfs:comment xml:lang="en">Indicates the passenger who completed the survey</rdfs:comment>
+        <rdfs:label xml:lang="en">fillingByPassenger</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#followsFlightRoute -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#followsFlightRoute">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Trip"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Trip"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#FlightRoute"/>
+        <rdfs:comment xml:lang="en">Indicates the flight route followed during a trip.</rdfs:comment>
+        <rdfs:label xml:lang="en">hasFlightRoute</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#hasAircraft -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#hasAircraft">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Trip"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Trip"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Aircraft"/>
+        <rdfs:comment xml:lang="en">Indicates the aircraft used for a specific trip.</rdfs:comment>
+        <rdfs:label xml:lang="en">usesAircraft</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#hasAirport -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#hasAirport">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Country"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Country"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airport"/>
+        <rdfs:comment xml:lang="en">Indicates the airport(s) located in a country.</rdfs:comment>
+        <rdfs:label xml:lang="en">hasAirport</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#hasArrivalAirport -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#hasArrivalAirport">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#FlightRoute"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#FlightRoute"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airport"/>
+        <rdfs:comment xml:lang="en">Indicates the arrival airport for a flight route.</rdfs:comment>
+        <rdfs:label xml:lang="en">hasArrivalAirport</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#hasCountry -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#hasCountry">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Location"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#isLocatedIn"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Location"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Country"/>
+        <rdfs:comment xml:lang="en">Indicates the country associated with an entity.</rdfs:comment>
+        <rdfs:label xml:lang="en">hasCountry</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#hasDepartureAirport -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#hasDepartureAirport">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#FlightRoute"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#FlightRoute"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airport"/>
+        <rdfs:comment xml:lang="en">Indicates the departure airport for a flight route.</rdfs:comment>
+        <rdfs:label xml:lang="en">hasDepartureAirport</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#hasFlighSeat -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#hasFlighSeat">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Trip"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#hasTrip"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Trip"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#FlightSeat"/>
+        <rdfs:label xml:lang="en">hasFlightSeat</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#hasOriginCountry -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#hasOriginCountry">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Passenger"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Passenger"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Country"/>
+        <rdfs:comment xml:lang="en">Indicates the country of origin of a passenger.</rdfs:comment>
+        <rdfs:label xml:lang="en">Passenger</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#hasPassenger -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#hasPassenger">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Trip"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#takesTrip"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Trip"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Passenger"/>
+        <rdfs:comment xml:lang="en">Indicates the passenger(s) associated with a trip.</rdfs:comment>
+        <rdfs:label xml:lang="en">hasPassenger</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#hasTrip -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#hasTrip">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#FlighSeat"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#FlightRoute"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Trip"/>
+        <rdfs:comment xml:lang="en">Indicates the flight seat associated with a trip.</rdfs:comment>
+        <rdfs:label xml:lang="en">hasTrip</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#hasTripReason -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#hasTripReason">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Review"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#isReasonForTrip"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Review"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#TripReason"/>
+        <rdfs:comment xml:lang="en">Indicates the trip reason associated with a trip.</rdfs:comment>
+        <rdfs:label xml:lang="en">hasTripReason</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#isLocalizedIn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#isLocalizedIn">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airport"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airport"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Location"/>
+        <rdfs:comment xml:lang="en">Indicates that an entity is located in another place.</rdfs:comment>
+        <rdfs:label xml:lang="en">isUbicatedIn</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#isLocatedIn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#isLocatedIn">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Country"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Country"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Location"/>
+        <rdfs:comment xml:lang="en">Indicates the location of an airport or country.</rdfs:comment>
+        <rdfs:label xml:lang="en">isLocateIn</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#isOwnedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#isOwnedBy">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Aircraft"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#usesAircraft"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Aircraft"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airline"/>
+        <rdfs:comment xml:lang="en">Indicates that an entity is owned by another.</rdfs:comment>
+        <rdfs:label xml:lang="en">isOwnedBy</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#isReasonForTrip -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#isReasonForTrip">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#TripReason"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#TripReason"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Review"/>
+        <rdfs:comment xml:lang="en">Indicates that a trip reason is the reason for a trip.</rdfs:comment>
+        <rdfs:label xml:lang="en">isTripReasonFor</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#operatesFromAirport -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#operatesFromAirport">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airline"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#serversAirline"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airline"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airport"/>
+        <rdfs:comment xml:lang="en">Indicates the airport(s) from which an airline operates.</rdfs:comment>
+        <rdfs:label xml:lang="en">operatesFromAirport</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#providesReview -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#providesReview">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Passenger"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Passenger"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Review"/>
+        <rdfs:comment xml:lang="en">Indicates that a passenger provides a review.</rdfs:comment>
+        <rdfs:label xml:lang="en">providesReview</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#serversAirline -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#serversAirline">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airport"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airport"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airline"/>
+        <rdfs:comment xml:lang="en">Indicates that an airport serves the operations of an airline.</rdfs:comment>
+        <rdfs:label xml:lang="en">serversAirline</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#takesTrip -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#takesTrip">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Passenger"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Passenger"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Trip"/>
+        <rdfs:comment xml:lang="en">Indicates that a passenger takes part in a trip.</rdfs:comment>
+        <rdfs:label xml:lang="en">takesTrip</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#usesAircraft -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#usesAircraft">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airline"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airline"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Aircraft"/>
+        <rdfs:comment xml:lang="en">Indicates the aircraft operated by an airline.</rdfs:comment>
+        <rdfs:label xml:lang="en">hasAircraft</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#CountryName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#CountryName">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Country"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:label xml:lang="en">CountryName</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#DateFlown -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#DateFlown">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Trip"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <rdfs:comment xml:lang="en">Denotes the date when the trip or journey took place or was undertaken.</rdfs:comment>
+        <rdfs:label xml:lang="en">DateFlown</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#DatePublished -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#DatePublished">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#ReviewData"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Review"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <rdfs:comment xml:lang="en">Represents the date when the review or opinion was published.</rdfs:comment>
+        <rdfs:label xml:lang="en">DatePublished</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Rating -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Rating">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#TripFeedback"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Review"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:minExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</xsd:minExclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                    <rdfs:Datatype>
+                        <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+                        <owl:withRestrictions rdf:parseType="Collection">
+                            <rdf:Description>
+                                <xsd:maxExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#int">11</xsd:maxExclusive>
+                            </rdf:Description>
+                        </owl:withRestrictions>
+                    </rdfs:Datatype>
+                </owl:intersectionOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+        <rdfs:comment xml:lang="en">Quantifies the evaluation or score given to the subject of the review or opinion.</rdfs:comment>
+        <rdfs:label xml:lang="en">Rating</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Recomended -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Recomended">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#TripFeedback"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Review"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:comment xml:lang="en">Specifies whether the subject of the review or opinion is recommended or not.</rdfs:comment>
+        <rdfs:label xml:lang="en">Recomended</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#ReviewBody -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#ReviewBody">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#ReviewData"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Review"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">Indicates the main content or body of the review or opinion.</rdfs:comment>
+        <rdfs:label xml:lang="en">ReviewBody</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#ReviewData -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#ReviewData">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Review"/>
+        <rdfs:label xml:lang="en">ReviewData</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#ReviewTitle -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#ReviewTitle">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#ReviewData"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Review"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">Denotes the title or headline of the review or opinion.</rdfs:comment>
+        <rdfs:label xml:lang="en">ReviewTitle</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#TripFeedback -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#TripFeedback">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Review"/>
+        <rdfs:comment xml:lang="en">Represents the feedback or commentary provided regarding a trip</rdfs:comment>
+        <rdfs:label xml:lang="en">TripFeedback</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Verified -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Verified">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#TripFeedback"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Review"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:comment xml:lang="en">Indicates whether the review or opinion has been verified or authenticated.</rdfs:comment>
+        <rdfs:label xml:lang="en">Verified</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Aircraft -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Aircraft">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#hasCountry"/>
+                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Country"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airline -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airline">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airline_Qatar"/>
+                    <rdf:Description rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airline_Ryanair"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airport -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airport"/>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Business -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Business">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#FlightSeat"/>
+        <rdfs:comment xml:lang="en">Representing a business class seat on a flight</rdfs:comment>
+        <rdfs:label xml:lang="en">Business</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#BusinessTripReason -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#BusinessTripReason">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#TripReason"/>
+        <rdfs:comment xml:lang="en">Representing a trip undertaken for business purposes</rdfs:comment>
+        <rdfs:label xml:lang="en">BusinessTripReason</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#CanadianPassenger -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#CanadianPassenger">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Passenger"/>
+        <rdfs:comment xml:lang="en">A subtype of the general class &quot;Passenger&quot;, specifically denoting individuals who hold Canadian nationality. Canadian passengers are individuals from Canada who engage in air travel for various purposes such as business, leisure, or family visits.</rdfs:comment>
+        <rdfs:isDefinedBy>http://dbpedia.org/resource/Canadian</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">CanadianPassenger</rdfs:label>
+        <rdfs:sameAs xml:lang="en">http://dbpedia.org/resource/Canadian</rdfs:sameAs>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Country -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Country"/>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#CoupleTripReason -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#CoupleTripReason">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#LeisureTripReason"/>
+        <rdfs:comment xml:lang="en">Representing a leisure trip undertaken by a couple</rdfs:comment>
+        <rdfs:label xml:lang="en">CoupleTripReason</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Economy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Economy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#FlightSeat"/>
+        <rdfs:comment xml:lang="en">Representing a Economy class seat on a flight</rdfs:comment>
+        <rdfs:label xml:lang="en">Economy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#FamilyTripReason -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#FamilyTripReason">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#LeisureTripReason"/>
+        <rdfs:comment xml:lang="en">Representing a leisure trip undertaken by a family</rdfs:comment>
+        <rdfs:label xml:lang="en">FamilyTripReason</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#FirstClass -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#FirstClass">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#FlightSeat"/>
+        <rdfs:comment xml:lang="en">Representing a first class seat on a flight</rdfs:comment>
+        <rdfs:label xml:lang="en">FirstClass</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#FlightRoute -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#FlightRoute">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#hasArrivalAirport"/>
+                        <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#FlightRoute"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#hasDepartureAirport"/>
+                        <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#FlightRoute"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#hasArrivalAirport"/>
+                        <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#hasDepartureAirport"/>
+                        <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minCardinality>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#FlightSeat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#FlightSeat">
+        <rdfs:comment xml:lang="en">Representing a seat on a flight</rdfs:comment>
+        <rdfs:label xml:lang="en">FlightSeat</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#GermanPassenger -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#GermanPassenger">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Passenger"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#SpanishPassenger"/>
+        <rdfs:comment xml:lang="en">A subtype of the general class &quot;Passenger&quot;, specifically denoting individuals who hold German nationality. German passengers are citizens of Germany who travel by air, contributing to international air traffic.</rdfs:comment>
+        <rdfs:isDefinedBy>http://dbpedia.org/resource/German</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">GermanPassenger</rdfs:label>
+        <rdfs:sameAs>http://dbpedia.org/resource/German</rdfs:sameAs>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#GoodReview -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#GoodReview">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Review"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#NegativeReview"/>
+        <rdfs:comment xml:lang="en">A subtype of Review, representing feedback that emphasizes positive aspects of the travel experience. Good reviews may commend excellent service, comfortable seating, or timely arrivals, serving as testimonials of satisfaction</rdfs:comment>
+        <rdfs:label xml:lang="en">GoodReview</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#LeisureTripReason -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#LeisureTripReason">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#TripReason"/>
+        <rdfs:comment xml:lang="en">Representing a trip undertaken for leisure or recreational purposes</rdfs:comment>
+        <rdfs:label xml:lang="en">LeisureTripReason</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Location -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Location"/>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#NegativeReview -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#NegativeReview">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Review"/>
+        <rdfs:comment xml:lang="en">A subtype of Review, specifically indicating feedback that highlights negative aspects of the travel experience. Negative reviews may include complaints about flight delays, poor service, or discomfort, providing insights into areas for improvement.</rdfs:comment>
+        <rdfs:label xml:lang="en">NegativeReview</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Passenger -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Passenger"/>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Premium_Economy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Premium_Economy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#FlightSeat"/>
+        <rdfs:comment xml:lang="en">Representing a premium economy class seat on a flight</rdfs:comment>
+        <rdfs:label xml:lang="en">Premium Economy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Review -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Review"/>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#SatisfactionSurvey -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#SatisfactionSurvey">
+        <rdfs:comment xml:lang="en">Representing a survey designed to measure satisfaction levels of individuals after a specific experience, such as a flight</rdfs:comment>
+        <rdfs:label xml:lang="en">SatisfactionSurvey</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Solo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Solo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#LeisureTripReason"/>
+        <rdfs:comment xml:lang="en">Representing a leisure trip undertaken by a individual alone</rdfs:comment>
+        <rdfs:label xml:lang="en">SoloTripReason</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#SpanishPassenger -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#SpanishPassenger">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Passenger"/>
+        <rdfs:comment xml:lang="en">A subtype of Passenger, representing individuals with Spanish nationality. Spanish passengers are citizens of Spain who travel by air, reflecting the diverse range of travelers from Spain.</rdfs:comment>
+        <rdfs:isDefinedBy>http://dbpedia.org/resource/Spanish</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">SpanishPassenger</rdfs:label>
+        <rdfs:sameAs>http://dbpedia.org/resource/Spanish</rdfs:sameAs>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Traveler -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Traveler">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Passenger"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#hasTrip"/>
+                        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                        <owl:onClass rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Trip"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Passenger"/>
+        <rdfs:comment xml:lang="en">A general class encompassing all individuals who engage in travel activities, including air travel. Travelers can be of any nationality and may embark on journeys for various reasons, such as tourism, business, or personal commitments</rdfs:comment>
+        <rdfs:label xml:lang="en">Traveler</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Trip -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Trip">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#hasPassenger"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">20</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Passenger"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#TripReason -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#TripReason"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#A319 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#A319">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Aircraft"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#A350 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#A350">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Aircraft"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#A380 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#A380">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Aircraft"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airline_Qatar -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airline_Qatar">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airline"/>
+        <flight_satisfaction_surveys:operatesFromAirport rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airline_Qatar"/>
+        <flight_satisfaction_surveys:operatesFromAirport rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airport_Germany"/>
+        <flight_satisfaction_surveys:operatesFromAirport rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airport_Spain"/>
+        <flight_satisfaction_surveys:usesAircraft rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#A319"/>
+        <flight_satisfaction_surveys:usesAircraft rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#A350"/>
+        <flight_satisfaction_surveys:usesAircraft rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#A380"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airline_Ryanair -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airline_Ryanair">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airline"/>
+        <flight_satisfaction_surveys:operatesFromAirport rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airport_Australia"/>
+        <flight_satisfaction_surveys:operatesFromAirport rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airport_Canada"/>
+        <flight_satisfaction_surveys:operatesFromAirport rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airport_United_States"/>
+        <flight_satisfaction_surveys:usesAircraft rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Boeing_737"/>
+        <flight_satisfaction_surveys:usesAircraft rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Boeing_787"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airport_Australia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airport_Australia">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airport"/>
+        <flight_satisfaction_surveys:isLocalizedIn rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Position_Australia"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airport_Canada -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airport_Canada">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airport"/>
+        <flight_satisfaction_surveys:isLocalizedIn rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Position_Canada"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airport_Germany -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airport_Germany">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airport"/>
+        <flight_satisfaction_surveys:isLocalizedIn rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Position_Germany"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airport_Qatar -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airport_Qatar">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airport"/>
+        <flight_satisfaction_surveys:isLocalizedIn rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Position_Qatar"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airport_Spain -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airport_Spain">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airport"/>
+        <flight_satisfaction_surveys:isLocalizedIn rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Position_Spain"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airport_United_States -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airport_United_States">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airport"/>
+        <flight_satisfaction_surveys:isLocalizedIn rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Position_United_States"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Australia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Australia">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Country"/>
+        <flight_satisfaction_surveys:CountryName>Australia</flight_satisfaction_surveys:CountryName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Australia_Canada -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Australia_Canada">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#FlightRoute"/>
+        <flight_satisfaction_surveys:hasArrivalAirport rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airport_Australia"/>
+        <flight_satisfaction_surveys:hasDepartureAirport rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airport_Canada"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Boeing_737 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Boeing_737">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Aircraft"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Boeing_787 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Boeing_787">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Aircraft"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Canada -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Canada">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Country"/>
+        <flight_satisfaction_surveys:CountryName>Canada</flight_satisfaction_surveys:CountryName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Canada_Spain -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Canada_Spain">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#FlightRoute"/>
+        <flight_satisfaction_surveys:hasArrivalAirport rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airport_Canada"/>
+        <flight_satisfaction_surveys:hasDepartureAirport rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airport_Spain"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Denmark -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Denmark">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Country"/>
+        <flight_satisfaction_surveys:CountryName>Denmark</flight_satisfaction_surveys:CountryName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#FlighSeat_Economy -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#FlighSeat_Economy">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Economy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Germany -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Germany">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Country"/>
+        <flight_satisfaction_surveys:CountryName>Germany</flight_satisfaction_surveys:CountryName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Germany_Canada -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Germany_Canada">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#FlightRoute"/>
+        <flight_satisfaction_surveys:hasArrivalAirport rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airport_Germany"/>
+        <flight_satisfaction_surveys:hasDepartureAirport rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airport_Canada"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Israel -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Israel">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Country"/>
+        <flight_satisfaction_surveys:CountryName>Israel</flight_satisfaction_surveys:CountryName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Passenger_Ana -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Passenger_Ana">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Passenger"/>
+        <flight_satisfaction_surveys:hasOriginCountry rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Spain"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Passenger_Federico -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Passenger_Federico">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Passenger"/>
+        <flight_satisfaction_surveys:hasOriginCountry rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Spain"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Passenger_Maria -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Passenger_Maria">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Passenger"/>
+        <flight_satisfaction_surveys:hasOriginCountry rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Germany"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Passenger_Robert -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Passenger_Robert">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Passenger"/>
+        <flight_satisfaction_surveys:hasOriginCountry rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#United_States"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Passenger_William -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Passenger_William">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Passenger"/>
+        <flight_satisfaction_surveys:hasOriginCountry rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Canada"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Position_Australia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Position_Australia">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Location"/>
+        <flight_satisfaction_surveys:hasCountry rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Australia"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Position_Canada -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Position_Canada">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Location"/>
+        <flight_satisfaction_surveys:hasCountry rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Canada"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Position_Germany -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Position_Germany">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Location"/>
+        <flight_satisfaction_surveys:hasCountry rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Germany"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Position_Qatar -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Position_Qatar">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Location"/>
+        <flight_satisfaction_surveys:hasCountry rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Qatar"/>
+        <flight_satisfaction_surveys:CountryName>Qatar</flight_satisfaction_surveys:CountryName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Position_Spain -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Position_Spain">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Location"/>
+        <flight_satisfaction_surveys:hasCountry rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Spain"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Position_United_States -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Position_United_States">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Location"/>
+        <flight_satisfaction_surveys:hasCountry rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#United_States"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Qatar -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Qatar">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Country"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Qatar_Spain -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Qatar_Spain">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#FlightRoute"/>
+        <flight_satisfaction_surveys:hasArrivalAirport rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airport_Qatar"/>
+        <flight_satisfaction_surveys:hasDepartureAirport rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airport_Spain"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Spain -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Spain">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Country"/>
+        <flight_satisfaction_surveys:CountryName>Spain</flight_satisfaction_surveys:CountryName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Spain_Germany -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Spain_Germany">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#FlightRoute"/>
+        <flight_satisfaction_surveys:hasArrivalAirport rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airport_Spain"/>
+        <flight_satisfaction_surveys:hasDepartureAirport rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airport_Germany"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Spain_Qatar -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Spain_Qatar">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#FlightRoute"/>
+        <flight_satisfaction_surveys:hasArrivalAirport rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airport_Spain"/>
+        <flight_satisfaction_surveys:hasDepartureAirport rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airport_Qatar"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#United_States -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#United_States">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Country"/>
+        <flight_satisfaction_surveys:CountryName>United States</flight_satisfaction_surveys:CountryName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#United_States_Spain -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#United_States_Spain">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#FlightRoute"/>
+        <flight_satisfaction_surveys:hasArrivalAirport rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airport_United_States"/>
+        <flight_satisfaction_surveys:hasDepartureAirport rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airport_Spain"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#business001 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#business001">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#BusinessTripReason"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#couple001 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#couple001">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#CoupleTripReason"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#family001 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#family001">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#FamilyTripReason"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#flighSeat_Business -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#flighSeat_Business">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Business"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#flightSeatFirstClass -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#flightSeatFirstClass">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#FirstClass"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#review001 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#review001">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Review"/>
+        <flight_satisfaction_surveys:fillingByPassenger rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Passenger_Ana"/>
+        <flight_satisfaction_surveys:hasFlighSeat rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#flighSeat_Business"/>
+        <flight_satisfaction_surveys:hasTrip rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#trip_spain_germany"/>
+        <flight_satisfaction_surveys:hasTripReason rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#business001"/>
+        <flight_satisfaction_surveys:DatePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2000-04-02T00:00:00</flight_satisfaction_surveys:DatePublished>
+        <flight_satisfaction_surveys:Rating rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</flight_satisfaction_surveys:Rating>
+        <flight_satisfaction_surveys:Recomended rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</flight_satisfaction_surveys:Recomended>
+        <flight_satisfaction_surveys:ReviewBody>&quot;Another good affordable flight with Ryanair. On time, pleasant staff at check-in and on board. We use Ryanair as our first choice on every flight we take. great service&quot;</flight_satisfaction_surveys:ReviewBody>
+        <flight_satisfaction_surveys:ReviewTitle>&quot;Another good affordable flight&quot;</flight_satisfaction_surveys:ReviewTitle>
+        <flight_satisfaction_surveys:Verified rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</flight_satisfaction_surveys:Verified>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#review002 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#review002">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Review"/>
+        <flight_satisfaction_surveys:fillingByPassenger rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Passenger_Federico"/>
+        <flight_satisfaction_surveys:hasFlighSeat rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#flightSeatFirstClass"/>
+        <flight_satisfaction_surveys:hasTrip rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#trip_spain_germany"/>
+        <flight_satisfaction_surveys:hasTripReason rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#couple001"/>
+        <flight_satisfaction_surveys:DatePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2000-04-02T00:00:00</flight_satisfaction_surveys:DatePublished>
+        <flight_satisfaction_surveys:Rating rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</flight_satisfaction_surveys:Rating>
+        <flight_satisfaction_surveys:Recomended rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</flight_satisfaction_surveys:Recomended>
+        <flight_satisfaction_surveys:ReviewBody>After Covid-19 I requested a refund of my money, then after a month they sent me an email saying that I got a voucher and if I want a refund I need to ask for it. I didnt ask again since I had already asked for a refund and the request was accepted. Now on August I find out that I was never in a queue for a refund, and their excuse is that they asked me that if I want a refund I had to ask for it! This is fraud! Now I have to wait for a refund like I just asked for it, waiting for a queue again! In addition, I bought a travel insurance for my flights, and after covid 19 cancellations, Ryannair informed me that they will refund the flight cost excluding the travel insurance cost. Their response was that because I could use the travel insurance for compensation. But then, when I asked if I can get compensation, they told me that according to the terms and conditions, I cannot get compensation for the cancellation. So they kept the insurance amount, even though there is no way to use the travel insurance! I imagine how much money they made from the travel insurance of milions of travelers that never used this travel insurance!</flight_satisfaction_surveys:ReviewBody>
+        <flight_satisfaction_surveys:ReviewTitle>&quot;This is fraud!&quot;</flight_satisfaction_surveys:ReviewTitle>
+        <flight_satisfaction_surveys:Verified rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</flight_satisfaction_surveys:Verified>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#review003 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#review003">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Review"/>
+        <flight_satisfaction_surveys:fillingByPassenger rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Passenger_Federico"/>
+        <flight_satisfaction_surveys:hasFlighSeat rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#FlighSeat_Economy"/>
+        <flight_satisfaction_surveys:hasTrip rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#trip_Qatar_Spain"/>
+        <flight_satisfaction_surveys:hasTripReason rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#business001"/>
+        <flight_satisfaction_surveys:DatePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-04-03T00:00:00</flight_satisfaction_surveys:DatePublished>
+        <flight_satisfaction_surveys:Rating rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</flight_satisfaction_surveys:Rating>
+        <flight_satisfaction_surveys:Recomended rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</flight_satisfaction_surveys:Recomended>
+        <flight_satisfaction_surveys:ReviewBody>Return flight ZAG-AGP-ZAG in mid - March 2023. Booking flights on the Ryanair app is easy and straightforward. Very reasonably priced tickets are bought 2 months in advance. Flights from ZAG are operated by Lauda Europe and their A320 in 180 seat config. Boarding was on time with a bit of queuing. The young and very enthusiastic crew offered very good service with lots of smiles. Both flights were on time. Onboard products are reasonably priced. Had just enough leg space (I was not touching the seat in front). No frills, but flights were definitely very good value for money.</flight_satisfaction_surveys:ReviewBody>
+        <flight_satisfaction_surveys:ReviewTitle>very good service with lots of smile</flight_satisfaction_surveys:ReviewTitle>
+        <flight_satisfaction_surveys:Verified rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</flight_satisfaction_surveys:Verified>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#review004 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#review004">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Review"/>
+        <flight_satisfaction_surveys:fillingByPassenger rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Passenger_Maria"/>
+        <flight_satisfaction_surveys:hasFlighSeat rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#flighSeat_Business"/>
+        <flight_satisfaction_surveys:hasTrip rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#trip_spain_germany"/>
+        <flight_satisfaction_surveys:hasTripReason rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#business001"/>
+        <flight_satisfaction_surveys:DatePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-04-03T00:00:00</flight_satisfaction_surveys:DatePublished>
+        <flight_satisfaction_surveys:Rating rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</flight_satisfaction_surveys:Rating>
+        <flight_satisfaction_surveys:Recomended rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</flight_satisfaction_surveys:Recomended>
+        <flight_satisfaction_surveys:ReviewBody>Another great flight with Ryanair. Cheapest tickets on the market. Great, helpful staff. Flight bang on time. Smooth and efficient. Food and beverages available and super landing. My gripe is the seats were very uncomfortable and no leg room. Really hard on me as I&apos;m in ill health at present and it&apos;s a fairly long flight. But that aside we&apos;ll done by my favourite airline.</flight_satisfaction_surveys:ReviewBody>
+        <flight_satisfaction_surveys:ReviewTitle>Cheapest tickets on the market</flight_satisfaction_surveys:ReviewTitle>
+        <flight_satisfaction_surveys:Verified rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</flight_satisfaction_surveys:Verified>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#review005 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#review005">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Review"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#trip_Canada_Spain -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#trip_Canada_Spain">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Trip"/>
+        <flight_satisfaction_surveys:FlightRoute rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Canada_Spain"/>
+        <flight_satisfaction_surveys:hasAircraft rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#A380"/>
+        <flight_satisfaction_surveys:hasPassenger rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Passenger_Maria"/>
+        <flight_satisfaction_surveys:DateFlown rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-04-02T00:00:00</flight_satisfaction_surveys:DateFlown>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#trip_Qatar_Spain -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#trip_Qatar_Spain">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Trip"/>
+        <flight_satisfaction_surveys:followsFlightRoute rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Qatar_Spain"/>
+        <flight_satisfaction_surveys:hasAircraft rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#A319"/>
+        <flight_satisfaction_surveys:hasPassenger rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Passenger_Federico"/>
+        <flight_satisfaction_surveys:DateFlown rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-04-02T00:00:00</flight_satisfaction_surveys:DateFlown>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#trip_spain_germany -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#trip_spain_germany">
+        <rdf:type rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Trip"/>
+        <flight_satisfaction_surveys:followsFlightRoute rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Spain_Germany"/>
+        <flight_satisfaction_surveys:hasAircraft rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Boeing_737"/>
+        <flight_satisfaction_surveys:hasPassenger rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Passenger_Ana"/>
+        <flight_satisfaction_surveys:DateFlown rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2000-04-02T00:00:00</flight_satisfaction_surveys:DateFlown>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Aircraft">
+        <rdfs:label xml:lang="en">Aircraft</rdfs:label>
+        <rdfs:comment xml:lang="en">Representing a vehicle that is capable of flight through the atmosphere</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airline">
+        <rdfs:isDefinedBy xml:lang="en">http://dbpedia.org/resource/Airline</rdfs:isDefinedBy>
+        <rdfs:comment xml:lang="en">Representing a company that provides air transport services for passengers or freight</rdfs:comment>
+        <rdfs:label xml:lang="en">Airline</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airport">
+        <rdfs:comment xml:lang="en">Represents an airport location where flights depart from or arrive at. Airports serve as essential nodes in the transportation network, facilitating air travel for passengers and cargo.</rdfs:comment>
+        <rdfs:label xml:lang="en">Airport</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Country">
+        <rdfs:sameAs xml:lang="en">https://dbpedia.org/page/Category:Countries</rdfs:sameAs>
+        <rdfs:label xml:lang="en">Country</rdfs:label>
+        <rdfs:isDefinedBy xml:lang="en">https://dbpedia.org/page/Category:Countries</rdfs:isDefinedBy>
+        <rdfs:comment xml:lang="en">Generally refers to a sovereign geographical and political entity, with its own borders, government and citizenship.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#FlightRoute">
+        <rdfs:comment xml:lang="en">Defines a route taken by an aircraft, typically between two airports. Flight routes play a crucial role in flight planning and scheduling, determining the path an aircraft follows during its journey.</rdfs:comment>
+        <rdfs:label xml:lang="en">FlightRoute</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Location">
+        <rdfs:comment xml:lang="en">Represents a geographic location or place</rdfs:comment>
+        <rdfs:label xml:lang="en">Location</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Passenger">
+        <rdfs:label xml:lang="en">Passenger</rdfs:label>
+        <rdfs:comment xml:lang="en">Represent a person traveling in a vehicle (car, plane, train) or on foot.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Review">
+        <rdfs:label xml:lang="en">Review</rdfs:label>
+        <rdfs:comment xml:lang="en">Represents a feedback or evaluation provided by a traveler regarding their travel experience. Reviews typically include information about the flight, airline, service quality, and overall satisfaction, helping other travelers make informed decisions.</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Trip">
+        <rdfs:label xml:lang="en">Trip</rdfs:label>
+        <rdfs:comment xml:lang="en">Representing the act of moving from one place to another, typically over a distance</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#TripReason">
+        <rdfs:comment xml:lang="en">Represents the different reasons for travel, such as business or leisure trips, and its specific subclasses.</rdfs:comment>
+        <rdfs:label xml:lang="en">TripReason</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#CanadianPassenger"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#GermanPassenger"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#SpanishPassenger"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#CoupleTripReason"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#FamilyTripReason"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Solo"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#A319"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#A350"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#A380"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Boeing_737"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Boeing_787"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Position_Australia"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Position_Canada"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Position_Germany"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Position_Qatar"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Position_Spain"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Position_United_States"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Qatar_Spain"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#review001"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#review002"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#review003"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#review004"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#review005"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#review001"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#review002"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#review003"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#review004"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#review005"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Rules
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="urn:swrl:var#country">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="urn:swrl:var#passenger">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="urn:swrl:var#review">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="urn:swrl:var#rating">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="urn:swrl:var#body">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Rating"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#review"/>
+                        <swrl:argument2 rdf:resource="urn:swrl:var#rating"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                                <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#contains"/>
+                                <swrl:arguments>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first rdf:resource="urn:swrl:var#body"/>
+                                        <rdf:rest>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                <rdf:first>great service</rdf:first>
+                                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                            </rdf:Description>
+                                        </rdf:rest>
+                                    </rdf:Description>
+                                </swrl:arguments>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#ReviewBody"/>
+                                        <swrl:argument1 rdf:resource="urn:swrl:var#review"/>
+                                        <swrl:argument2 rdf:resource="urn:swrl:var#body"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                        <rdf:first>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                                <swrl:classPredicate rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Review"/>
+                                                <swrl:argument1 rdf:resource="urn:swrl:var#review"/>
+                                            </rdf:Description>
+                                        </rdf:first>
+                                        <rdf:rest>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                <rdf:first>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                                                        <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#greaterThan"/>
+                                                        <swrl:arguments>
+                                                            <rdf:Description>
+                                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                                <rdf:first rdf:resource="urn:swrl:var#rating"/>
+                                                                <rdf:rest>
+                                                                    <rdf:Description>
+                                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</rdf:first>
+                                                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                                    </rdf:Description>
+                                                                </rdf:rest>
+                                                            </rdf:Description>
+                                                        </swrl:arguments>
+                                                    </rdf:Description>
+                                                </rdf:first>
+                                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                            </rdf:Description>
+                                        </rdf:rest>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#GoodReview"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#review"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                        <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#lessThan"/>
+                        <swrl:arguments>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first rdf:resource="urn:swrl:var#rating"/>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </swrl:arguments>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Rating"/>
+                                <swrl:argument1 rdf:resource="urn:swrl:var#review"/>
+                                <swrl:argument2 rdf:resource="urn:swrl:var#rating"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#ReviewBody"/>
+                                        <swrl:argument1 rdf:resource="urn:swrl:var#review"/>
+                                        <swrl:argument2 rdf:resource="urn:swrl:var#body"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                        <rdf:first>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                                <swrl:classPredicate rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Review"/>
+                                                <swrl:argument1 rdf:resource="urn:swrl:var#review"/>
+                                            </rdf:Description>
+                                        </rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#NegativeReview"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#review"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#CountryName"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#country"/>
+                        <swrl:argument2>Canada</swrl:argument2>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                <swrl:classPredicate rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Passenger"/>
+                                <swrl:argument1 rdf:resource="urn:swrl:var#passenger"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#hasOriginCountry"/>
+                                        <swrl:argument1 rdf:resource="urn:swrl:var#passenger"/>
+                                        <swrl:argument2 rdf:resource="urn:swrl:var#country"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#CanadianPassenger"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#passenger"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Passenger"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#passenger"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#hasOriginCountry"/>
+                                <swrl:argument1 rdf:resource="urn:swrl:var#passenger"/>
+                                <swrl:argument2 rdf:resource="urn:swrl:var#country"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#CountryName"/>
+                                        <swrl:argument1 rdf:resource="urn:swrl:var#country"/>
+                                        <swrl:argument2>Germany</swrl:argument2>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#GermanPassenger"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#passenger"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Passenger"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#passenger"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#hasOriginCountry"/>
+                                <swrl:argument1 rdf:resource="urn:swrl:var#passenger"/>
+                                <swrl:argument2 rdf:resource="urn:swrl:var#country"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#CountryName"/>
+                                        <swrl:argument1 rdf:resource="urn:swrl:var#country"/>
+                                        <swrl:argument2>Spain</swrl:argument2>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#SpanishPassenger"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#passenger"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Rating"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#review"/>
+                        <swrl:argument2 rdf:resource="urn:swrl:var#rating"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                                <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#contains"/>
+                                <swrl:arguments>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first rdf:resource="urn:swrl:var#body"/>
+                                        <rdf:rest>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                <rdf:first>good service</rdf:first>
+                                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                            </rdf:Description>
+                                        </rdf:rest>
+                                    </rdf:Description>
+                                </swrl:arguments>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom"/>
+                                        <swrl:propertyPredicate rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#ReviewBody"/>
+                                        <swrl:argument1 rdf:resource="urn:swrl:var#review"/>
+                                        <swrl:argument2 rdf:resource="urn:swrl:var#body"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                        <rdf:first>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                                <swrl:classPredicate rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Review"/>
+                                                <swrl:argument1 rdf:resource="urn:swrl:var#review"/>
+                                            </rdf:Description>
+                                        </rdf:first>
+                                        <rdf:rest>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                                <rdf:first>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#BuiltinAtom"/>
+                                                        <swrl:builtin rdf:resource="http://www.w3.org/2003/11/swrlb#greaterThan"/>
+                                                        <swrl:arguments>
+                                                            <rdf:Description>
+                                                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                                <rdf:first rdf:resource="urn:swrl:var#rating"/>
+                                                                <rdf:rest>
+                                                                    <rdf:Description>
+                                                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                                                        <rdf:first rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</rdf:first>
+                                                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                                                    </rdf:Description>
+                                                                </rdf:rest>
+                                                            </rdf:Description>
+                                                        </swrl:arguments>
+                                                    </rdf:Description>
+                                                </rdf:first>
+                                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                            </rdf:Description>
+                                        </rdf:rest>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#GoodReview"/>
+                        <swrl:argument1 rdf:resource="urn:swrl:var#review"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
