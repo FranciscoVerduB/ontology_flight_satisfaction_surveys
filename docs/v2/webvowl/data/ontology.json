@@ -1,0 +1,1173 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "en", "undefined" ],
+    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema" ],
+    "iri" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys",
+    "labels" : {
+      "en" : "fligh_satisfaction_surveys"
+    },
+    "comments" : {
+      "en" : "Its objective is to model and represent the structure, relationships and concepts related to flight satisfaction surveys"
+    }
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "3",
+    "type" : "owl:Class"
+  }, {
+    "id" : "17",
+    "type" : "owl:Class"
+  }, {
+    "id" : "25",
+    "type" : "owl:Class"
+  }, {
+    "id" : "38",
+    "type" : "owl:Class"
+  }, {
+    "id" : "6",
+    "type" : "owl:Class"
+  }, {
+    "id" : "31",
+    "type" : "owl:Class"
+  }, {
+    "id" : "51",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "43",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "36",
+    "type" : "owl:Class"
+  }, {
+    "id" : "54",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "55",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "33",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "57",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "58",
+    "type" : "owl:Class"
+  }, {
+    "id" : "27",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "49",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "61",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "62",
+    "type" : "owl:Class"
+  }, {
+    "id" : "63",
+    "type" : "owl:Class"
+  }, {
+    "id" : "73",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "22",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "66",
+    "type" : "owl:Class"
+  }, {
+    "id" : "5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "72",
+    "type" : "owl:Class"
+  }, {
+    "id" : "84",
+    "type" : "owl:Class"
+  }, {
+    "id" : "18",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#LeisureTripReason",
+    "baseIri" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "LeisureTripReason",
+      "en" : "LeisureTripReason"
+    },
+    "subClasses" : [ "5", "6", "7" ],
+    "comment" : {
+      "en" : "Representing a trip undertaken for leisure or recreational purposes"
+    },
+    "id" : "3",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Premium_Economy",
+    "baseIri" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Premium_Economy",
+      "en" : "Premium Economy"
+    },
+    "comment" : {
+      "en" : "Representing a premium economy class seat on a flight"
+    },
+    "id" : "17",
+    "superClasses" : [ "18" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#SpanishPassenger",
+    "baseIri" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://dbpedia.org/resource/Spanish",
+        "type" : "label"
+      } ],
+      "sameAs" : [ {
+        "identifier" : "sameAs",
+        "language" : "undefined",
+        "value" : "http://dbpedia.org/resource/Spanish",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "SpanishPassenger",
+      "en" : "SpanishPassenger"
+    },
+    "comment" : {
+      "en" : "A subtype of Passenger, representing individuals with Spanish nationality. Spanish passengers are citizens of Spain who travel by air, reflecting the diverse range of travelers from Spain."
+    },
+    "id" : "25",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Business",
+    "baseIri" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Business",
+      "en" : "Business"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#flighSeat_Business",
+      "baseIri" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys",
+      "labels" : {
+        "IRI-based" : "flighSeat_Business"
+      }
+    } ],
+    "comment" : {
+      "en" : "Representing a business class seat on a flight"
+    },
+    "id" : "38",
+    "superClasses" : [ "18" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#FamilyTripReason",
+    "baseIri" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "FamilyTripReason",
+      "en" : "FamilyTripReason"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#family001",
+      "baseIri" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys",
+      "labels" : {
+        "IRI-based" : "family001"
+      }
+    } ],
+    "comment" : {
+      "en" : "Representing a leisure trip undertaken by a family"
+    },
+    "id" : "6",
+    "superClasses" : [ "3" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#FirstClass",
+    "baseIri" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "FirstClass",
+      "en" : "FirstClass"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#flightSeatFirstClass",
+      "baseIri" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys",
+      "labels" : {
+        "IRI-based" : "flightSeatFirstClass"
+      }
+    } ],
+    "comment" : {
+      "en" : "Representing a first class seat on a flight"
+    },
+    "id" : "31",
+    "superClasses" : [ "18" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "51",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "43",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Economy",
+    "baseIri" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Economy",
+      "en" : "Economy"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#FlighSeat_Economy",
+      "baseIri" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys",
+      "labels" : {
+        "IRI-based" : "FlighSeat_Economy"
+      }
+    } ],
+    "comment" : {
+      "en" : "Representing a Economy class seat on a flight"
+    },
+    "id" : "36",
+    "superClasses" : [ "18" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "54",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "55",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "33",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "57",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#BusinessTripReason",
+    "baseIri" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "BusinessTripReason",
+      "en" : "BusinessTripReason"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#business001",
+      "baseIri" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys",
+      "labels" : {
+        "IRI-based" : "business001"
+      }
+    } ],
+    "comment" : {
+      "en" : "Representing a trip undertaken for business purposes"
+    },
+    "id" : "58",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "27",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "49",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Traveler",
+    "baseIri" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Traveler",
+      "en" : "Traveler"
+    },
+    "intersection" : [ "1" ],
+    "comment" : {
+      "en" : "A general class encompassing all individuals who engage in travel activities, including air travel. Travelers can be of any nationality and may embark on journeys for various reasons, such as tourism, business, or personal commitments"
+    },
+    "attributes" : [ "intersection" ],
+    "id" : "61",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#CanadianPassenger",
+    "baseIri" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://dbpedia.org/resource/Canadian",
+        "type" : "label"
+      } ],
+      "sameAs" : [ {
+        "identifier" : "sameAs",
+        "language" : "en",
+        "value" : "http://dbpedia.org/resource/Canadian",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "CanadianPassenger",
+      "en" : "CanadianPassenger"
+    },
+    "comment" : {
+      "en" : "A subtype of the general class \"Passenger\", specifically denoting individuals who hold Canadian nationality. Canadian passengers are individuals from Canada who engage in air travel for various purposes such as business, leisure, or family visits."
+    },
+    "id" : "62",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#GoodReview",
+    "baseIri" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "GoodReview",
+      "en" : "GoodReview"
+    },
+    "comment" : {
+      "en" : "A subtype of Review, representing feedback that emphasizes positive aspects of the travel experience. Good reviews may commend excellent service, comfortable seating, or timely arrivals, serving as testimonials of satisfaction"
+    },
+    "id" : "63",
+    "superClasses" : [ "15" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "73",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "22",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#CoupleTripReason",
+    "baseIri" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CoupleTripReason",
+      "en" : "CoupleTripReason"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#couple001",
+      "baseIri" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys",
+      "labels" : {
+        "IRI-based" : "couple001"
+      }
+    } ],
+    "comment" : {
+      "en" : "Representing a leisure trip undertaken by a couple"
+    },
+    "id" : "7",
+    "superClasses" : [ "3" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#GermanPassenger",
+    "baseIri" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "http://dbpedia.org/resource/German",
+        "type" : "label"
+      } ],
+      "sameAs" : [ {
+        "identifier" : "sameAs",
+        "language" : "undefined",
+        "value" : "http://dbpedia.org/resource/German",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "GermanPassenger",
+      "en" : "GermanPassenger"
+    },
+    "comment" : {
+      "en" : "A subtype of the general class \"Passenger\", specifically denoting individuals who hold German nationality. German passengers are citizens of Germany who travel by air, contributing to international air traffic."
+    },
+    "id" : "66",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Solo",
+    "baseIri" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Solo",
+      "en" : "SoloTripReason"
+    },
+    "comment" : {
+      "en" : "Representing a leisure trip undertaken by a individual alone"
+    },
+    "id" : "5",
+    "superClasses" : [ "3" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#NegativeReview",
+    "baseIri" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "NegativeReview",
+      "en" : "NegativeReview"
+    },
+    "comment" : {
+      "en" : "A subtype of Review, specifically indicating feedback that highlights negative aspects of the travel experience. Negative reviews may include complaints about flight delays, poor service, or discomfort, providing insights into areas for improvement."
+    },
+    "id" : "72",
+    "superClasses" : [ "15" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#SatisfactionSurvey",
+    "baseIri" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SatisfactionSurvey",
+      "en" : "SatisfactionSurvey"
+    },
+    "comment" : {
+      "en" : "Representing a survey designed to measure satisfaction levels of individuals after a specific experience, such as a flight"
+    },
+    "id" : "84"
+  }, {
+    "iri" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#FlightSeat",
+    "baseIri" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "FlightSeat",
+      "en" : "FlightSeat"
+    },
+    "subClasses" : [ "31", "38", "36", "17" ],
+    "comment" : {
+      "en" : "Representing a seat on a flight"
+    },
+    "id" : "18"
+  } ],
+  "property" : [ {
+    "id" : "0",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "8",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "11",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "14",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "19",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "21",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "23",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "26",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "28",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "29",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "30",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "32",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "34",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "35",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "37",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "39",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "42",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "44",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "46",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "47",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "48",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "50",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "52",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "53",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "45",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "56",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "24",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "60",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "16",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "64",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "65",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "67",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "68",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "69",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "70",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "71",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "74",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "75",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "76",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "77",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "78",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "79",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "80",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "82",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "41",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "83",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "81",
+    "type" : "owl:objectProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "iri" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#hasOriginCountry",
+    "baseIri" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "hasOriginCountry",
+      "en" : "Passenger"
+    },
+    "superproperty" : [ "1" ],
+    "domain" : "1",
+    "comment" : {
+      "en" : "Indicates the country of origin of a passenger."
+    },
+    "attributes" : [ "object", "functional" ],
+    "id" : "0"
+  }, {
+    "iri" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#hasAircraft",
+    "baseIri" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys",
+    "range" : "10",
+    "label" : {
+      "IRI-based" : "hasAircraft",
+      "en" : "usesAircraft"
+    },
+    "superproperty" : [ "9" ],
+    "domain" : "9",
+    "comment" : {
+      "en" : "Indicates the aircraft used for a specific trip."
+    },
+    "attributes" : [ "object", "functional" ],
+    "id" : "8"
+  }, {
+    "iri" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#serversAirline",
+    "baseIri" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys",
+    "range" : "13",
+    "label" : {
+      "IRI-based" : "serversAirline",
+      "en" : "serversAirline"
+    },
+    "superproperty" : [ "12" ],
+    "domain" : "12",
+    "comment" : {
+      "en" : "Indicates that an airport serves the operations of an airline."
+    },
+    "attributes" : [ "object" ],
+    "id" : "11"
+  }, {
+    "iri" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#fillingByPassenger",
+    "inverse" : "16",
+    "baseIri" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "fillingByPassenger",
+      "en" : "fillingByPassenger"
+    },
+    "superproperty" : [ "15" ],
+    "domain" : "15",
+    "comment" : {
+      "en" : "Indicates the passenger who completed the survey"
+    },
+    "attributes" : [ "object", "functional" ],
+    "id" : "14"
+  }, {
+    "iri" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#hasArrivalAirport",
+    "baseIri" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys",
+    "range" : "12",
+    "label" : {
+      "IRI-based" : "hasArrivalAirport",
+      "en" : "hasArrivalAirport"
+    },
+    "superproperty" : [ "20" ],
+    "domain" : "20",
+    "comment" : {
+      "en" : "Indicates the arrival airport for a flight route."
+    },
+    "attributes" : [ "object", "functional" ],
+    "id" : "19"
+  }, {
+    "iri" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#DateFlown",
+    "baseIri" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys",
+    "range" : "22",
+    "label" : {
+      "IRI-based" : "DateFlown",
+      "en" : "DateFlown"
+    },
+    "domain" : "9",
+    "comment" : {
+      "en" : "Denotes the date when the trip or journey took place or was undertaken."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "21"
+  }, {
+    "iri" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#hasFlighSeat",
+    "inverse" : "24",
+    "baseIri" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys",
+    "range" : "18",
+    "label" : {
+      "IRI-based" : "hasFlighSeat",
+      "en" : "hasFlightSeat"
+    },
+    "superproperty" : [ "9" ],
+    "domain" : "9",
+    "attributes" : [ "object" ],
+    "id" : "23"
+  }, {
+    "iri" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#ReviewBody",
+    "baseIri" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys",
+    "range" : "27",
+    "label" : {
+      "IRI-based" : "ReviewBody",
+      "en" : "ReviewBody"
+    },
+    "domain" : "15",
+    "comment" : {
+      "en" : "Indicates the main content or body of the review or opinion."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "26"
+  }, {
+    "range" : "18",
+    "domain" : "17",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "28"
+  }, {
+    "iri" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#operatesFromAirport",
+    "inverse" : "11",
+    "baseIri" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys",
+    "range" : "12",
+    "label" : {
+      "IRI-based" : "operatesFromAirport",
+      "en" : "operatesFromAirport"
+    },
+    "superproperty" : [ "13" ],
+    "domain" : "13",
+    "comment" : {
+      "en" : "Indicates the airport(s) from which an airline operates."
+    },
+    "attributes" : [ "object" ],
+    "id" : "29"
+  }, {
+    "range" : "18",
+    "domain" : "31",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "30"
+  }, {
+    "iri" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#ReviewData",
+    "baseIri" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys",
+    "range" : "33",
+    "label" : {
+      "IRI-based" : "ReviewData",
+      "en" : "ReviewData"
+    },
+    "domain" : "15",
+    "attributes" : [ "datatype" ],
+    "id" : "32"
+  }, {
+    "range" : "3",
+    "domain" : "7",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "34"
+  }, {
+    "range" : "18",
+    "domain" : "36",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "35"
+  }, {
+    "range" : "18",
+    "domain" : "38",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "37"
+  }, {
+    "iri" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#containsAirport",
+    "inverse" : "41",
+    "baseIri" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys",
+    "range" : "12",
+    "label" : {
+      "IRI-based" : "containsAirport",
+      "en" : "containsAirport"
+    },
+    "superproperty" : [ "40" ],
+    "domain" : "40",
+    "comment" : {
+      "en" : "Indicates that an entity contains an airport."
+    },
+    "attributes" : [ "object" ],
+    "id" : "39"
+  }, {
+    "iri" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Verified",
+    "baseIri" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys",
+    "range" : "43",
+    "label" : {
+      "IRI-based" : "Verified",
+      "en" : "Verified"
+    },
+    "domain" : "15",
+    "comment" : {
+      "en" : "Indicates whether the review or opinion has been verified or authenticated."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "42"
+  }, {
+    "iri" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#hasCountry",
+    "inverse" : "45",
+    "baseIri" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "hasCountry",
+      "en" : "hasCountry"
+    },
+    "superproperty" : [ "40" ],
+    "domain" : "40",
+    "comment" : {
+      "en" : "Indicates the country associated with an entity."
+    },
+    "attributes" : [ "object", "functional" ],
+    "id" : "44"
+  }, {
+    "iri" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#takesTrip",
+    "baseIri" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "takesTrip",
+      "en" : "takesTrip"
+    },
+    "superproperty" : [ "1" ],
+    "domain" : "1",
+    "comment" : {
+      "en" : "Indicates that a passenger takes part in a trip."
+    },
+    "attributes" : [ "object", "functional" ],
+    "id" : "46"
+  }, {
+    "iri" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#hasDepartureAirport",
+    "baseIri" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys",
+    "range" : "12",
+    "label" : {
+      "IRI-based" : "hasDepartureAirport",
+      "en" : "hasDepartureAirport"
+    },
+    "superproperty" : [ "20" ],
+    "domain" : "20",
+    "comment" : {
+      "en" : "Indicates the departure airport for a flight route."
+    },
+    "attributes" : [ "object", "functional" ],
+    "id" : "47"
+  }, {
+    "iri" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Recomended",
+    "baseIri" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys",
+    "range" : "49",
+    "label" : {
+      "IRI-based" : "Recomended",
+      "en" : "Recomended"
+    },
+    "domain" : "15",
+    "comment" : {
+      "en" : "Specifies whether the subject of the review or opinion is recommended or not."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "48"
+  }, {
+    "range" : "3",
+    "domain" : "5",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "50"
+  }, {
+    "iri" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#usesAircraft",
+    "baseIri" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys",
+    "range" : "10",
+    "label" : {
+      "IRI-based" : "usesAircraft",
+      "en" : "hasAircraft"
+    },
+    "superproperty" : [ "13" ],
+    "domain" : "13",
+    "comment" : {
+      "en" : "Indicates the aircraft operated by an airline."
+    },
+    "attributes" : [ "object" ],
+    "id" : "52"
+  }, {
+    "range" : "3",
+    "domain" : "6",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "53"
+  }, {
+    "iri" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#isLocatedIn",
+    "baseIri" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys",
+    "range" : "40",
+    "label" : {
+      "IRI-based" : "isLocatedIn",
+      "en" : "isLocateIn"
+    },
+    "superproperty" : [ "2" ],
+    "domain" : "2",
+    "comment" : {
+      "en" : "Indicates the location of an airport or country."
+    },
+    "attributes" : [ "object", "functional" ],
+    "id" : "45"
+  }, {
+    "iri" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#isOwnedBy",
+    "inverse" : "52",
+    "baseIri" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys",
+    "range" : "13",
+    "label" : {
+      "IRI-based" : "isOwnedBy",
+      "en" : "isOwnedBy"
+    },
+    "superproperty" : [ "10" ],
+    "domain" : "10",
+    "comment" : {
+      "en" : "Indicates that an entity is owned by another."
+    },
+    "attributes" : [ "object" ],
+    "id" : "56"
+  }, {
+    "iri" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#hasTrip",
+    "baseIri" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "hasTrip",
+      "en" : "hasTrip"
+    },
+    "superproperty" : [ "59" ],
+    "domain" : "20",
+    "comment" : {
+      "en" : "Indicates the flight seat associated with a trip."
+    },
+    "attributes" : [ "object" ],
+    "id" : "24"
+  }, {
+    "iri" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#TripFeedback",
+    "baseIri" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys",
+    "range" : "55",
+    "label" : {
+      "IRI-based" : "TripFeedback",
+      "en" : "TripFeedback"
+    },
+    "domain" : "15",
+    "comment" : {
+      "en" : "Represents the feedback or commentary provided regarding a trip"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "60"
+  }, {
+    "iri" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#providesReview",
+    "baseIri" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys",
+    "range" : "15",
+    "label" : {
+      "IRI-based" : "providesReview",
+      "en" : "providesReview"
+    },
+    "superproperty" : [ "1" ],
+    "domain" : "1",
+    "comment" : {
+      "en" : "Indicates that a passenger provides a review."
+    },
+    "attributes" : [ "object" ],
+    "id" : "16"
+  }, {
+    "range" : "25",
+    "domain" : "62",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "64"
+  }, {
+    "range" : "25",
+    "domain" : "66",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "65"
+  }, {
+    "range" : "6",
+    "domain" : "7",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "67"
+  }, {
+    "range" : "5",
+    "domain" : "7",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "68"
+  }, {
+    "range" : "5",
+    "domain" : "6",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "69"
+  }, {
+    "iri" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Rating",
+    "baseIri" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys",
+    "range" : "51",
+    "label" : {
+      "IRI-based" : "Rating",
+      "en" : "Rating"
+    },
+    "domain" : "15",
+    "comment" : {
+      "en" : "Quantifies the evaluation or score given to the subject of the review or opinion."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "70"
+  }, {
+    "range" : "72",
+    "domain" : "63",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "71"
+  }, {
+    "iri" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#followsFlightRoute",
+    "baseIri" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys",
+    "range" : "20",
+    "label" : {
+      "IRI-based" : "followsFlightRoute",
+      "en" : "hasFlightRoute"
+    },
+    "superproperty" : [ "9" ],
+    "domain" : "9",
+    "comment" : {
+      "en" : "Indicates the flight route followed during a trip."
+    },
+    "attributes" : [ "object", "functional" ],
+    "id" : "74"
+  }, {
+    "iri" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#hasAirport",
+    "baseIri" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys",
+    "range" : "12",
+    "label" : {
+      "IRI-based" : "hasAirport",
+      "en" : "hasAirport"
+    },
+    "superproperty" : [ "2" ],
+    "domain" : "2",
+    "comment" : {
+      "en" : "Indicates the airport(s) located in a country."
+    },
+    "attributes" : [ "transitive", "object" ],
+    "id" : "75"
+  }, {
+    "iri" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#hasCountry",
+    "inverse" : "45",
+    "baseIri" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "hasCountry",
+      "en" : "hasCountry"
+    },
+    "superproperty" : [ "40" ],
+    "domain" : "10",
+    "comment" : {
+      "en" : "Indicates the country associated with an entity."
+    },
+    "attributes" : [ "allValues", "object", "functional" ],
+    "id" : "76"
+  }, {
+    "range" : "66",
+    "domain" : "62",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "77"
+  }, {
+    "iri" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#CountryName",
+    "baseIri" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys",
+    "range" : "73",
+    "label" : {
+      "IRI-based" : "CountryName",
+      "en" : "CountryName"
+    },
+    "domain" : "2",
+    "attributes" : [ "datatype" ],
+    "id" : "78"
+  }, {
+    "iri" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#ReviewTitle",
+    "baseIri" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys",
+    "range" : "54",
+    "label" : {
+      "IRI-based" : "ReviewTitle",
+      "en" : "ReviewTitle"
+    },
+    "domain" : "15",
+    "comment" : {
+      "en" : "Denotes the title or headline of the review or opinion."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "79"
+  }, {
+    "iri" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#hasTripReason",
+    "inverse" : "81",
+    "baseIri" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys",
+    "range" : "4",
+    "label" : {
+      "IRI-based" : "hasTripReason",
+      "en" : "hasTripReason"
+    },
+    "superproperty" : [ "15" ],
+    "domain" : "15",
+    "comment" : {
+      "en" : "Indicates the trip reason associated with a trip."
+    },
+    "attributes" : [ "object", "functional" ],
+    "id" : "80"
+  }, {
+    "iri" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#hasPassenger",
+    "inverse" : "46",
+    "baseIri" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "hasPassenger",
+      "en" : "hasPassenger"
+    },
+    "superproperty" : [ "9" ],
+    "domain" : "9",
+    "comment" : {
+      "en" : "Indicates the passenger(s) associated with a trip."
+    },
+    "attributes" : [ "object", "functional" ],
+    "id" : "82"
+  }, {
+    "iri" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#isLocalizedIn",
+    "baseIri" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys",
+    "range" : "40",
+    "label" : {
+      "IRI-based" : "isLocalizedIn",
+      "en" : "isUbicatedIn"
+    },
+    "superproperty" : [ "12" ],
+    "domain" : "12",
+    "comment" : {
+      "en" : "Indicates that an entity is located in another place."
+    },
+    "attributes" : [ "object", "functional" ],
+    "id" : "41"
+  }, {
+    "iri" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#DatePublished",
+    "baseIri" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys",
+    "range" : "57",
+    "label" : {
+      "IRI-based" : "DatePublished",
+      "en" : "DatePublished"
+    },
+    "domain" : "15",
+    "comment" : {
+      "en" : "Represents the date when the review or opinion was published."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "83"
+  }, {
+    "iri" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#isReasonForTrip",
+    "baseIri" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys",
+    "range" : "15",
+    "label" : {
+      "IRI-based" : "isReasonForTrip",
+      "en" : "isTripReasonFor"
+    },
+    "superproperty" : [ "4" ],
+    "domain" : "4",
+    "comment" : {
+      "en" : "Indicates that a trip reason is the reason for a trip."
+    },
+    "attributes" : [ "object" ],
+    "id" : "81"
+  } ]
+}
