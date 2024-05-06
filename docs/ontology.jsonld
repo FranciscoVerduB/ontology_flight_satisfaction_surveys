@@ -1,0 +1,2421 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "_:genid7"
+    }, {
+      "@id" : "_:genid3"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid10",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Country"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#hasCountry"
+  } ]
+}, {
+  "@id" : "_:genid103",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#review"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#rating"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Rating"
+  } ]
+}, {
+  "@id" : "_:genid105",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#review"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#GoodReview"
+  } ]
+}, {
+  "@id" : "_:genid106",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid120"
+    }, {
+      "@id" : "_:genid116"
+    }, {
+      "@id" : "_:genid114"
+    }, {
+      "@id" : "_:genid112"
+    }, {
+      "@id" : "_:genid108"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid122"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid108",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#BuiltinAtom" ],
+  "http://www.w3.org/2003/11/swrl#arguments" : [ {
+    "@list" : [ {
+      "@id" : "urn:swrl:var#rating"
+    }, {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "7"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#builtin" : [ {
+    "@id" : "http://www.w3.org/2003/11/swrlb#greaterThan"
+  } ]
+}, {
+  "@id" : "_:genid11",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#oneOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airline_Qatar"
+    }, {
+      "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airline_Ryanair"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid112",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#review"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Review"
+  } ]
+}, {
+  "@id" : "_:genid114",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#review"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#body"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#ReviewBody"
+  } ]
+}, {
+  "@id" : "_:genid116",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#BuiltinAtom" ],
+  "http://www.w3.org/2003/11/swrl#arguments" : [ {
+    "@list" : [ {
+      "@id" : "urn:swrl:var#body"
+    }, {
+      "@value" : "great service"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#builtin" : [ {
+    "@id" : "http://www.w3.org/2003/11/swrlb#contains"
+  } ]
+}, {
+  "@id" : "_:genid120",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#review"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#rating"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Rating"
+  } ]
+}, {
+  "@id" : "_:genid122",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#review"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#GoodReview"
+  } ]
+}, {
+  "@id" : "_:genid123",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid131"
+    }, {
+      "@id" : "_:genid129"
+    }, {
+      "@id" : "_:genid127"
+    }, {
+      "@id" : "_:genid125"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid135"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid125",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#review"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Review"
+  } ]
+}, {
+  "@id" : "_:genid127",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#review"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#body"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#ReviewBody"
+  } ]
+}, {
+  "@id" : "_:genid129",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#review"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#rating"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Rating"
+  } ]
+}, {
+  "@id" : "_:genid131",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#BuiltinAtom" ],
+  "http://www.w3.org/2003/11/swrl#arguments" : [ {
+    "@list" : [ {
+      "@id" : "urn:swrl:var#rating"
+    }, {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "5"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#builtin" : [ {
+    "@id" : "http://www.w3.org/2003/11/swrlb#lessThan"
+  } ]
+}, {
+  "@id" : "_:genid135",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#review"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#NegativeReview"
+  } ]
+}, {
+  "@id" : "_:genid14",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "_:genid22"
+    }, {
+      "@id" : "_:genid20"
+    }, {
+      "@id" : "_:genid18"
+    }, {
+      "@id" : "_:genid16"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid16",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#minCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#hasDepartureAirport"
+  } ]
+}, {
+  "@id" : "_:genid18",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#minCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#hasArrivalAirport"
+  } ]
+}, {
+  "@id" : "_:genid20",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#FlightRoute"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#hasDepartureAirport"
+  } ]
+}, {
+  "@id" : "_:genid22",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#allValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#FlightRoute"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#hasArrivalAirport"
+  } ]
+}, {
+  "@id" : "_:genid23",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Passenger"
+    }, {
+      "@id" : "_:genid25"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid25",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#minQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Trip"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#hasTrip"
+  } ]
+}, {
+  "@id" : "_:genid27",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "20"
+  } ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Passenger"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#hasPassenger"
+  } ]
+}, {
+  "@id" : "_:genid28",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#CanadianPassenger"
+    }, {
+      "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#GermanPassenger"
+    }, {
+      "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#SpanishPassenger"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid3",
+  "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ],
+  "http://www.w3.org/2002/07/owl#onDatatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#int"
+  } ],
+  "http://www.w3.org/2002/07/owl#withRestrictions" : [ {
+    "@list" : [ {
+      "@id" : "_:genid5"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid32",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#CoupleTripReason"
+    }, {
+      "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#FamilyTripReason"
+    }, {
+      "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Solo"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid36",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#A319"
+    }, {
+      "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#A350"
+    }, {
+      "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#A380"
+    }, {
+      "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Boeing_737"
+    }, {
+      "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Boeing_787"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid42",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Position_Australia"
+    }, {
+      "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Position_Canada"
+    }, {
+      "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Position_Germany"
+    }, {
+      "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Position_Qatar"
+    }, {
+      "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Position_Spain"
+    }, {
+      "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Position_United_States"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid49",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Qatar_Spain"
+    }, {
+      "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#review001"
+    }, {
+      "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#review002"
+    }, {
+      "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#review003"
+    }, {
+      "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#review004"
+    }, {
+      "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#review005"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid5",
+  "http://www.w3.org/2001/XMLSchema#maxExclusive" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#int",
+    "@value" : "11"
+  } ]
+}, {
+  "@id" : "_:genid56",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#review001"
+    }, {
+      "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#review002"
+    }, {
+      "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#review003"
+    }, {
+      "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#review004"
+    }, {
+      "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#review005"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid62",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid68"
+    }, {
+      "@id" : "_:genid66"
+    }, {
+      "@id" : "_:genid64"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid70"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid64",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#country"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@value" : "Germany"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#CountryName"
+  } ]
+}, {
+  "@id" : "_:genid66",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#passenger"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#country"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#hasOriginCountry"
+  } ]
+}, {
+  "@id" : "_:genid68",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#passenger"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Passenger"
+  } ]
+}, {
+  "@id" : "_:genid7",
+  "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ],
+  "http://www.w3.org/2002/07/owl#onDatatype" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#int"
+  } ],
+  "http://www.w3.org/2002/07/owl#withRestrictions" : [ {
+    "@list" : [ {
+      "@id" : "_:genid9"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid70",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#passenger"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#GermanPassenger"
+  } ]
+}, {
+  "@id" : "_:genid71",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid77"
+    }, {
+      "@id" : "_:genid75"
+    }, {
+      "@id" : "_:genid73"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid79"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid73",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#country"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@value" : "Spain"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#CountryName"
+  } ]
+}, {
+  "@id" : "_:genid75",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#passenger"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#country"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#hasOriginCountry"
+  } ]
+}, {
+  "@id" : "_:genid77",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#passenger"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Passenger"
+  } ]
+}, {
+  "@id" : "_:genid79",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#passenger"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#SpanishPassenger"
+  } ]
+}, {
+  "@id" : "_:genid80",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid86"
+    }, {
+      "@id" : "_:genid84"
+    }, {
+      "@id" : "_:genid82"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid88"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid82",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#IndividualPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#passenger"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#country"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#hasOriginCountry"
+  } ]
+}, {
+  "@id" : "_:genid84",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#passenger"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Passenger"
+  } ]
+}, {
+  "@id" : "_:genid86",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#country"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@value" : "Canada"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#CountryName"
+  } ]
+}, {
+  "@id" : "_:genid88",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#passenger"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#CanadianPassenger"
+  } ]
+}, {
+  "@id" : "_:genid89",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Imp" ],
+  "http://www.w3.org/2003/11/swrl#body" : [ {
+    "@list" : [ {
+      "@id" : "_:genid103"
+    }, {
+      "@id" : "_:genid99"
+    }, {
+      "@id" : "_:genid97"
+    }, {
+      "@id" : "_:genid95"
+    }, {
+      "@id" : "_:genid91"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#head" : [ {
+    "@list" : [ {
+      "@id" : "_:genid105"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid9",
+  "http://www.w3.org/2001/XMLSchema#minExclusive" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#int",
+    "@value" : "0"
+  } ]
+}, {
+  "@id" : "_:genid91",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#BuiltinAtom" ],
+  "http://www.w3.org/2003/11/swrl#arguments" : [ {
+    "@list" : [ {
+      "@id" : "urn:swrl:var#rating"
+    }, {
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+      "@value" : "7"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#builtin" : [ {
+    "@id" : "http://www.w3.org/2003/11/swrlb#greaterThan"
+  } ]
+}, {
+  "@id" : "_:genid95",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#ClassAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#review"
+  } ],
+  "http://www.w3.org/2003/11/swrl#classPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Review"
+  } ]
+}, {
+  "@id" : "_:genid97",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom" ],
+  "http://www.w3.org/2003/11/swrl#argument1" : [ {
+    "@id" : "urn:swrl:var#review"
+  } ],
+  "http://www.w3.org/2003/11/swrl#argument2" : [ {
+    "@id" : "urn:swrl:var#body"
+  } ],
+  "http://www.w3.org/2003/11/swrl#propertyPredicate" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#ReviewBody"
+  } ]
+}, {
+  "@id" : "_:genid99",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#BuiltinAtom" ],
+  "http://www.w3.org/2003/11/swrl#arguments" : [ {
+    "@list" : [ {
+      "@id" : "urn:swrl:var#body"
+    }, {
+      "@value" : "good service"
+    } ]
+  } ],
+  "http://www.w3.org/2003/11/swrl#builtin" : [ {
+    "@id" : "http://www.w3.org/2003/11/swrlb#contains"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Its objective is to model and represent the structure, relationships and concepts related to flight satisfaction surveys"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "fligh_satisfaction_surveys"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#A319",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Aircraft"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#A350",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Aircraft"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#A380",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Aircraft"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Aircraft",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Representing a vehicle that is capable of flight through the atmosphere"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Aircraft"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Aircraft"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid10"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airline",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Representing a company that provides air transport services for passengers or freight"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Review"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "http://dbpedia.org/resource/Airline"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Airline"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid11"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airline_Qatar",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#operatesFromAirport" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airline_Qatar"
+  }, {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airport_Germany"
+  }, {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airport_Spain"
+  } ],
+  "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#usesAircraft" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#A319"
+  }, {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#A350"
+  }, {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#A380"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airline"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airline_Ryanair",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#operatesFromAirport" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airport_Australia"
+  }, {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airport_Canada"
+  }, {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airport_United_States"
+  } ],
+  "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#usesAircraft" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Boeing_737"
+  }, {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Boeing_787"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airline"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airport",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Represents an airport location where flights depart from or arrive at. Airports serve as essential nodes in the transportation network, facilitating air travel for passengers and cargo."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airport"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Airport"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airport_Australia",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#isLocalizedIn" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Position_Australia"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airport"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airport_Canada",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#isLocalizedIn" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Position_Canada"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airport"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airport_Germany",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#isLocalizedIn" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Position_Germany"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airport"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airport_Qatar",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#isLocalizedIn" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Position_Qatar"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airport"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airport_Spain",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#isLocalizedIn" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Position_Spain"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airport"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airport_United_States",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#isLocalizedIn" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Position_United_States"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airport"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Australia",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#CountryName" : [ {
+    "@value" : "Australia"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Country"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Australia_Canada",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#hasArrivalAirport" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airport_Australia"
+  } ],
+  "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#hasDepartureAirport" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airport_Canada"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#FlightRoute"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Boeing_737",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Aircraft"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Boeing_787",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Aircraft"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Business",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Representing a business class seat on a flight"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Business"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#FlightSeat"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#BusinessTripReason",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Representing a trip undertaken for business purposes"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "BusinessTripReason"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#TripReason"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Canada",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#CountryName" : [ {
+    "@value" : "Canada"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Country"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Canada_Spain",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#hasArrivalAirport" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airport_Canada"
+  } ],
+  "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#hasDepartureAirport" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airport_Spain"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#FlightRoute"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#CanadianPassenger",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A subtype of the general class \"Passenger\", specifically denoting individuals who hold Canadian nationality. Canadian passengers are individuals from Canada who engage in air travel for various purposes such as business, leisure, or family visits."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "http://dbpedia.org/resource/Canadian"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "CanadianPassenger"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#sameAs" : [ {
+    "@language" : "en",
+    "@value" : "http://dbpedia.org/resource/Canadian"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Passenger"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Country",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Generally refers to a sovereign geographical and political entity, with its own borders, government and citizenship."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Country"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "https://dbpedia.org/page/Category:Countries"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Country"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#sameAs" : [ {
+    "@language" : "en",
+    "@value" : "https://dbpedia.org/page/Category:Countries"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#CountryName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Country"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "CountryName"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#CoupleTripReason",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Representing a leisure trip undertaken by a couple"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "CoupleTripReason"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#LeisureTripReason"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#DateFlown",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Denotes the date when the trip or journey took place or was undertaken."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Trip"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "DateFlown"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#DatePublished",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Represents the date when the review or opinion was published."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Review"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "DatePublished"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#dateTime"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#ReviewData"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Denmark",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#CountryName" : [ {
+    "@value" : "Denmark"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Country"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Economy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Representing a Economy class seat on a flight"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Economy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#FlightSeat"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#FamilyTripReason",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Representing a leisure trip undertaken by a family"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "FamilyTripReason"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#LeisureTripReason"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#FirstClass",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Representing a first class seat on a flight"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "FirstClass"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#FlightSeat"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#FlighSeat",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#FlightRoute"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "FlighSeat"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#FlighSeat_Economy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Economy"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#FlightRoute",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Defines a route taken by an aircraft, typically between two airports. Flight routes play a crucial role in flight planning and scheduling, determining the path an aircraft follows during its journey."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#FlightRoute"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "FlightRoute"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid14"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#FlightSeat",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Representing a seat on a flight"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "FlightSeat"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#GermanPassenger",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A subtype of the general class \"Passenger\", specifically denoting individuals who hold German nationality. German passengers are citizens of Germany who travel by air, contributing to international air traffic."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "http://dbpedia.org/resource/German"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "GermanPassenger"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#sameAs" : [ {
+    "@value" : "http://dbpedia.org/resource/German"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Passenger"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#SpanishPassenger"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Germany",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#CountryName" : [ {
+    "@value" : "Germany"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Country"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Germany_Canada",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#hasArrivalAirport" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airport_Germany"
+  } ],
+  "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#hasDepartureAirport" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airport_Canada"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#FlightRoute"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#GoodReview",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A subtype of Review, representing feedback that emphasizes positive aspects of the travel experience. Good reviews may commend excellent service, comfortable seating, or timely arrivals, serving as testimonials of satisfaction"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "GoodReview"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Review"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#NegativeReview"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Israel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#CountryName" : [ {
+    "@value" : "Israel"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Country"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#LeisureTripReason",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Representing a trip undertaken for leisure or recreational purposes"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "LeisureTripReason"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#TripReason"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Location",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Represents a geographic location or place"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Location"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Location"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#NegativeReview",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A subtype of Review, specifically indicating feedback that highlights negative aspects of the travel experience. Negative reviews may include complaints about flight delays, poor service, or discomfort, providing insights into areas for improvement."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "NegativeReview"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Review"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Passenger",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Represent a person traveling in a vehicle (car, plane, train) or on foot."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Passenger"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Passenger"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Review"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Passenger_Ana",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#hasOriginCountry" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Spain"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Passenger"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Passenger_Federico",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#hasOriginCountry" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Spain"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Passenger"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Passenger_Maria",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#hasOriginCountry" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Germany"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Passenger"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Passenger_Robert",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#hasOriginCountry" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#United_States"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Passenger"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Passenger_William",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#hasOriginCountry" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Canada"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Passenger"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Position_Australia",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#hasCountry" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Australia"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Location"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Position_Canada",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#hasCountry" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Canada"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Location"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Position_Germany",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#hasCountry" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Germany"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Location"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Position_Qatar",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#CountryName" : [ {
+    "@value" : "Qatar"
+  } ],
+  "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#hasCountry" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Qatar"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Location"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Position_Spain",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#hasCountry" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Spain"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Location"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Position_United_States",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#hasCountry" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#United_States"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Location"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Premium_Economy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Representing a premium economy class seat on a flight"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Premium Economy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#FlightSeat"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Qatar",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Country"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Qatar_Spain",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#hasArrivalAirport" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airport_Qatar"
+  } ],
+  "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#hasDepartureAirport" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airport_Spain"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#FlightRoute"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Rating",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Quantifies the evaluation or score given to the subject of the review or opinion."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Review"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Rating"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "_:genid1"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#TripFeedback"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Recomended",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Specifies whether the subject of the review or opinion is recommended or not."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Review"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Recomended"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#TripFeedback"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Review",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Represents a feedback or evaluation provided by a traveler regarding their travel experience. Reviews typically include information about the flight, airline, service quality, and overall satisfaction, helping other travelers make informed decisions."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Review"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Review"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#ReviewBody",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Indicates the main content or body of the review or opinion."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Review"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "ReviewBody"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#ReviewData"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#ReviewData",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Review"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "ReviewData"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#ReviewTitle",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Denotes the title or headline of the review or opinion."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Review"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "ReviewTitle"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#ReviewData"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#SatisfactionSurvey",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Representing a survey designed to measure satisfaction levels of individuals after a specific experience, such as a flight"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "SatisfactionSurvey"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Solo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Representing a leisure trip undertaken by a individual alone"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "SoloTripReason"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#LeisureTripReason"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Spain",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#CountryName" : [ {
+    "@value" : "Spain"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Country"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Spain_Germany",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#hasArrivalAirport" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airport_Spain"
+  } ],
+  "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#hasDepartureAirport" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airport_Germany"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#FlightRoute"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Spain_Qatar",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#hasArrivalAirport" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airport_Spain"
+  } ],
+  "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#hasDepartureAirport" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airport_Qatar"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#FlightRoute"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#SpanishPassenger",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A subtype of Passenger, representing individuals with Spanish nationality. Spanish passengers are citizens of Spain who travel by air, reflecting the diverse range of travelers from Spain."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "http://dbpedia.org/resource/Spanish"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "SpanishPassenger"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#sameAs" : [ {
+    "@value" : "http://dbpedia.org/resource/Spanish"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Passenger"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Traveler",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A general class encompassing all individuals who engage in travel activities, including air travel. Travelers can be of any nationality and may embark on journeys for various reasons, such as tourism, business, or personal commitments"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Traveler"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Passenger"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid23"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Trip",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Representing the act of moving from one place to another, typically over a distance"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Trip"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Trip"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid27"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#TripFeedback",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Represents the feedback or commentary provided regarding a trip"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Review"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "TripFeedback"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#TripReason",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Represents the different reasons for travel, such as business or leisure trips, and its specific subclasses."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#TripReason"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "TripReason"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#United_States",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#CountryName" : [ {
+    "@value" : "United States"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Country"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#United_States_Spain",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#hasArrivalAirport" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airport_United_States"
+  } ],
+  "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#hasDepartureAirport" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airport_Spain"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#FlightRoute"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Verified",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Indicates whether the review or opinion has been verified or authenticated."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Review"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Verified"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#TripFeedback"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#business001",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#BusinessTripReason"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#containsAirport",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Indicates that an entity contains an airport."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Location"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "containsAirport"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airport"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Location"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#isLocalizedIn"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#couple001",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#CoupleTripReason"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#family001",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#FamilyTripReason"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#fillingByPassenger",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Indicates the passenger who completed the survey"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Review"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "fillingByPassenger"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Passenger"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Review"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#providesReview"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#flighSeat_Business",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Business"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#flightSeatFirstClass",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#FirstClass"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#followsFlightRoute",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Indicates the flight route followed during a trip."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Trip"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hasFlightRoute"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#FlightRoute"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Trip"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#hasAircraft",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Indicates the aircraft used for a specific trip."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Trip"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "usesAircraft"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Aircraft"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Trip"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#hasAirport",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#TransitiveProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Indicates the airport(s) located in a country."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Country"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hasAirport"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airport"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Country"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#hasArrivalAirport",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Indicates the arrival airport for a flight route."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#FlightRoute"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hasArrivalAirport"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airport"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#FlightRoute"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#hasCountry",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Indicates the country associated with an entity."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Location"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hasCountry"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Country"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Location"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#isLocatedIn"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#hasDepartureAirport",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Indicates the departure airport for a flight route."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#FlightRoute"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hasDepartureAirport"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airport"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#FlightRoute"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#hasFlighSeat",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Trip"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hasFlightSeat"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#FlightSeat"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Trip"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#hasTrip"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#hasOriginCountry",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Indicates the country of origin of a passenger."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Passenger"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Passenger"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Country"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Passenger"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#hasPassenger",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Indicates the passenger(s) associated with a trip."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Trip"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hasPassenger"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Passenger"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Trip"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#takesTrip"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#hasTrip",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Indicates the flight seat associated with a trip."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#FlightRoute"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hasTrip"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Trip"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#FlighSeat"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#hasTripReason",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Indicates the trip reason associated with a trip."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Review"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hasTripReason"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#TripReason"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Review"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#isReasonForTrip"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#isLocalizedIn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Indicates that an entity is located in another place."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airport"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "isUbicatedIn"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Location"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airport"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#isLocatedIn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Indicates the location of an airport or country."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Country"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "isLocateIn"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Location"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Country"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#isOwnedBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Indicates that an entity is owned by another."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Aircraft"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "isOwnedBy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airline"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Aircraft"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#usesAircraft"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#isReasonForTrip",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Indicates that a trip reason is the reason for a trip."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#TripReason"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "isTripReasonFor"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Review"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#TripReason"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#operatesFromAirport",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Indicates the airport(s) from which an airline operates."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airline"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "operatesFromAirport"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airport"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airline"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#serversAirline"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#providesReview",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Indicates that a passenger provides a review."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Passenger"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "providesReview"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Review"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Passenger"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#review001",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#DatePublished" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2000-04-02T00:00:00"
+  } ],
+  "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Rating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "9"
+  } ],
+  "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Recomended" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "false"
+  } ],
+  "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#ReviewBody" : [ {
+    "@value" : "\"Another good affordable flight with Ryanair. On time, pleasant staff at check-in and on board. We use Ryanair as our first choice on every flight we take. great service\""
+  } ],
+  "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#ReviewTitle" : [ {
+    "@value" : "\"Another good affordable flight\""
+  } ],
+  "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Verified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#fillingByPassenger" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Passenger_Ana"
+  } ],
+  "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#hasFlighSeat" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#flighSeat_Business"
+  } ],
+  "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#hasTrip" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#trip_spain_germany"
+  } ],
+  "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#hasTripReason" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#business001"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Review"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#review002",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#DatePublished" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2000-04-02T00:00:00"
+  } ],
+  "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Rating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1"
+  } ],
+  "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Recomended" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "false"
+  } ],
+  "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#ReviewBody" : [ {
+    "@value" : "After Covid-19 I requested a refund of my money, then after a month they sent me an email saying that I got a voucher and if I want a refund I need to ask for it. I didnt ask again since I had already asked for a refund and the request was accepted. Now on August I find out that I was never in a queue for a refund, and their excuse is that they asked me that if I want a refund I had to ask for it! This is fraud! Now I have to wait for a refund like I just asked for it, waiting for a queue again! In addition, I bought a travel insurance for my flights, and after covid 19 cancellations, Ryannair informed me that they will refund the flight cost excluding the travel insurance cost. Their response was that because I could use the travel insurance for compensation. But then, when I asked if I can get compensation, they told me that according to the terms and conditions, I cannot get compensation for the cancellation. So they kept the insurance amount, even though there is no way to use the travel insurance! I imagine how much money they made from the travel insurance of milions of travelers that never used this travel insurance!"
+  } ],
+  "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#ReviewTitle" : [ {
+    "@value" : "\"This is fraud!\""
+  } ],
+  "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Verified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#fillingByPassenger" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Passenger_Federico"
+  } ],
+  "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#hasFlighSeat" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#flightSeatFirstClass"
+  } ],
+  "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#hasTrip" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#trip_spain_germany"
+  } ],
+  "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#hasTripReason" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#couple001"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Review"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#review003",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#DatePublished" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2020-04-03T00:00:00"
+  } ],
+  "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Rating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "8"
+  } ],
+  "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Recomended" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#ReviewBody" : [ {
+    "@value" : "Return flight ZAG-AGP-ZAG in mid - March 2023. Booking flights on the Ryanair app is easy and straightforward. Very reasonably priced tickets are bought 2 months in advance. Flights from ZAG are operated by Lauda Europe and their A320 in 180 seat config. Boarding was on time with a bit of queuing. The young and very enthusiastic crew offered very good service with lots of smiles. Both flights were on time. Onboard products are reasonably priced. Had just enough leg space (I was not touching the seat in front). No frills, but flights were definitely very good value for money."
+  } ],
+  "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#ReviewTitle" : [ {
+    "@value" : "very good service with lots of smile"
+  } ],
+  "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Verified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "true"
+  } ],
+  "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#fillingByPassenger" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Passenger_Federico"
+  } ],
+  "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#hasFlighSeat" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#FlighSeat_Economy"
+  } ],
+  "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#hasTrip" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#trip_Qatar_Spain"
+  } ],
+  "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#hasTripReason" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#business001"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Review"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#review004",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#DatePublished" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2020-04-03T00:00:00"
+  } ],
+  "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Rating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "3"
+  } ],
+  "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Recomended" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "false"
+  } ],
+  "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#ReviewBody" : [ {
+    "@value" : "Another great flight with Ryanair. Cheapest tickets on the market. Great, helpful staff. Flight bang on time. Smooth and efficient. Food and beverages available and super landing. My gripe is the seats were very uncomfortable and no leg room. Really hard on me as I'm in ill health at present and it's a fairly long flight. But that aside we'll done by my favourite airline."
+  } ],
+  "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#ReviewTitle" : [ {
+    "@value" : "Cheapest tickets on the market"
+  } ],
+  "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Verified" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "@value" : "false"
+  } ],
+  "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#fillingByPassenger" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Passenger_Maria"
+  } ],
+  "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#hasFlighSeat" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#flighSeat_Business"
+  } ],
+  "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#hasTrip" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#trip_spain_germany"
+  } ],
+  "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#hasTripReason" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#business001"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Review"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#review005",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Review"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#serversAirline",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Indicates that an airport serves the operations of an airline."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airport"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "serversAirline"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airline"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airport"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#takesTrip",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Indicates that a passenger takes part in a trip."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Passenger"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "takesTrip"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Trip"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Passenger"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#trip_Canada_Spain",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#DateFlown" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2020-04-02T00:00:00"
+  } ],
+  "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#FlightRoute" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Canada_Spain"
+  } ],
+  "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#hasAircraft" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#A380"
+  } ],
+  "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#hasPassenger" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Passenger_Maria"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Trip"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#trip_Qatar_Spain",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#DateFlown" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2020-04-02T00:00:00"
+  } ],
+  "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#followsFlightRoute" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Qatar_Spain"
+  } ],
+  "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#hasAircraft" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#A319"
+  } ],
+  "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#hasPassenger" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Passenger_Federico"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Trip"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#trip_spain_germany",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#DateFlown" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2000-04-02T00:00:00"
+  } ],
+  "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#followsFlightRoute" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Spain_Germany"
+  } ],
+  "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#hasAircraft" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Boeing_737"
+  } ],
+  "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#hasPassenger" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Passenger_Ana"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Trip"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#usesAircraft",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Indicates the aircraft operated by an airline."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airline"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "hasAircraft"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Aircraft"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/francisco_jose_verdu/ontologies/2024/3/flight_satisfaction_surveys#Airline"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2000/01/rdf-schema#sameAs",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2003/11/swrlb#contains",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Builtin" ]
+}, {
+  "@id" : "http://www.w3.org/2003/11/swrlb#greaterThan",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Builtin" ]
+}, {
+  "@id" : "http://www.w3.org/2003/11/swrlb#lessThan",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Builtin" ]
+}, {
+  "@id" : "urn:swrl:var#body",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+}, {
+  "@id" : "urn:swrl:var#country",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+}, {
+  "@id" : "urn:swrl:var#passenger",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+}, {
+  "@id" : "urn:swrl:var#rating",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+}, {
+  "@id" : "urn:swrl:var#review",
+  "@type" : [ "http://www.w3.org/2003/11/swrl#Variable" ]
+} ]
